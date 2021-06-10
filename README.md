@@ -22,5 +22,10 @@ def helloImageJ_upper(name):
 ```
 import myModule
 
-
 ``` 
+
+* if you only need one function from your script you can import only that
+```
+from hello_imageJ_module import helloImageJ
+helloImageJ("normic")
+```
