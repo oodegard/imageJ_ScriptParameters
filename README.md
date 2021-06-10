@@ -19,13 +19,13 @@ def helloImageJ_upper(name):
 1. restart imageJ
 1. import your module to a new script
 
-```
+```python
 import myModule
 
 ``` 
 
 * if you only need one function from your script you can import only that
-```
+```python
 from hello_imageJ_module import helloImageJ
 helloImageJ("normic")
 ```
