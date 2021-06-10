@@ -41,7 +41,9 @@ for name in test_data:
 	IJ.run("Hello imageJ py", "name=[" + name + "]")
 ```
 
-# Save usefull functions in modules that you can import from other imageJ macros
+# Import your own modules
+Save usefull functions in modules that you can import from other imageJ macros.
+based on [self-written-jython-modules-for-imagej](https://imagej.net/scripting/jython/#self-written-jython-modules-for-imagej)
 * Make a folder in the `.../Fiji.app/jars/` folder called `Lib`.
 * save your macro containing your functions there
 
