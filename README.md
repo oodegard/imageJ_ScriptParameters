@@ -19,7 +19,7 @@ Here are some simple examples on how to use script parameters to simplify input 
 You can write imageJ macros in any of the script languages with parameters to define input and output.
 
 [Hello imageJ](https://github.com/oodegard/imageJ_ScriptParameters/blob/main/00_hello_ImageJ/Hello_imageJ_py.py)
-```python
+```java
 #@ String(label = "Your name") name
 #@ OUTPUT String greeting
 
