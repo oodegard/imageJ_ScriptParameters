@@ -4,7 +4,6 @@ from ij import IJ
 test_data = ["person 1", "person 2", "person 3", "person 4"]
 
 # make greetings 
-g = IJ.run("Hello imageJ py", "name=[person 4]")
-print g
+for name in test_data:
+	print(IJ.run("Hello imageJ py", "name=[" + name + "]"))
 
-#print [n for n in test_data]
