@@ -44,6 +44,7 @@ for name in test_data:
 # Save usefull functions in modules that you can import from other imageJ macros
 * Make a folder in the `.../Fiji.app/jars/` folder called `Lib`.
 * save your macro containing your functions there
+
 [hello_imageJ_module](https://github.com/oodegard/imageJ_ScriptParameters/blob/main/Lib/hello_imageJ_module.py)
 ```python
 def helloImageJ(name):
