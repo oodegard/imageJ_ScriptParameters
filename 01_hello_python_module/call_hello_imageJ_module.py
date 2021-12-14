@@ -5,8 +5,8 @@ import hello_imageJ_module as him
 print dir(him)
 
 # You can run your function like this
-him.helloImageJ("normic")
-him.helloImageJ_upper("normic")
+print him.helloImageJ("normic")
+print him.helloImageJ_upper("normic")
 
 # Alternatively
 from hello_imageJ_module import helloImageJ
